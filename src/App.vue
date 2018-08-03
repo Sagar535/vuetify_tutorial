@@ -1,6 +1,8 @@
 <template>
   <v-app dark>
-    <v-toolbar></v-toolbar>
+    <v-toolbar class="light-blue">
+      <v-toolbar-title>Vuetify Tutorial</v-toolbar-title>
+    </v-toolbar>
     <v-content>
       <router-view/>
     </v-content>
