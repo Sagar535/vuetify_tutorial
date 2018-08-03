@@ -2,6 +2,11 @@
   <v-app dark>
     <v-toolbar class="light-blue">
       <v-toolbar-title>Vuetify Tutorial</v-toolbar-title>
+      <v-toolbar-items>
+        <v-btn flat dark>Vue</v-btn>
+        <v-btn flat dark>Vuex</v-btn>
+        <v-btn flat dark>Nuxt</v-btn>
+      </v-toolbar-items>
     </v-toolbar>
     <v-content>
       <router-view/>
